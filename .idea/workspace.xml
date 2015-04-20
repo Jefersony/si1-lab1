@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b612c0-843c-4ce6-b740-fa5a41406f55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estatica-css/cadastro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estatica-css/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estatica-css/obrigado.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/estatica-simples/index.html" afterPath="$PROJECT_DIR$/estatica-simples/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="si1-lab1.iws" />
@@ -26,8 +24,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/estatica-css/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/estatica-simples/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.1827957">
               <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
@@ -71,10 +79,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/estatica-simples/index.html" />
         <option value="$PROJECT_DIR$/estatica-simples/obrigado.html" />
         <option value="$PROJECT_DIR$/estatica-simples/cadastro.html" />
         <option value="$PROJECT_DIR$/estatica-css/index.html" />
+        <option value="$PROJECT_DIR$/estatica-simples/index.html" />
       </list>
     </option>
   </component>
@@ -237,7 +245,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429542350348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Concerto do titulo no index.html&quot;">
+      <created>1429550274533</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1429550274533</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -271,21 +285,14 @@
     <MESSAGE value="Pg de cadastro feita. Falta linkar o botão." />
     <MESSAGE value="Pg de cadastro feita. Falta linkar o botão. Retirada de input desnecessario." />
     <MESSAGE value="Pg de cadastro concluida. Ultimos retoques." />
-    <option name="LAST_COMMIT_MESSAGE" value="Pg de cadastro concluida. Ultimos retoques." />
+    <MESSAGE value="&quot;Concerto do titulo no index.html&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Concerto do titulo no index.html&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/estatica-simples/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/estatica-simples/cadastro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.769231">
@@ -319,6 +326,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estatica-css/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estatica-simples/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1827957">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
