@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Disciplinas</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function recarrega() {
+            var p = document.getElementById('Foo');
+            var filhos = p.childNodes;
+            for( i = filhos.length - 1; i >= 0; i-- ) {
+                if( filhos[i].tagName == 'LI' ) {
+                    p.removeChild( filhos[i] );
+                }
+            }
+
+            var li = document.createElement('li');
+            li.innerHTML = 'seis';
+            p.appendChild(li);
+
+            var li = document.createElement('li');
+            li.innerHTML = 'sete';
+            p.appendChild(li);
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-default"/>
+    <p class="navbar-text"><h1>Lista Dinamica</h1></p>
+    <br><br>
+
+    <span>Nova Disciplina:</span> <input type="text" name="Nome">
+    <button onclick="recarrega()">Adicionar</button>
+    <br><br>
+    <section>
+        <div class="list-group">
+            <a href="#" class="list-group-item active">
+                Disciplinas a Aprender
+            </a>
+            <a href="#" class="list-group-item">P1/LP1</a>
+            <a href="#" class="list-group-item">P2/LP2</a>
+            <a href="#" class="list-group-item">EDA/LEDA</a>
+            <a href="#" class="list-group-item">OAC/LOAC</a>
+        </div>
+    </section>
+
+    <nav>
+        <ul class="pager">
+            <li><a href="index.html">Aprendida</a></li>
+            <li><a href="index.html">Excluir</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <div class="list-group">
+            <a href="#" class="list-group-item active">
+                Disciplinas Aprendidas
+            </a>
+
+        </div>
+    </article>
+
+    <nav>
+        <ul class="pager">
+            <li><a href="index.html">Revisar</a></li>
+            <li><a href="index.html">Excluir</a></li>
+        </ul>
+    </nav>
+
+    <nav>
+        <ul class="pager">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
