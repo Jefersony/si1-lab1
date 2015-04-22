@@ -24,8 +24,14 @@
             p.appendChild(li);
         }
     </script>
+    <script>
+        function aprendida() {
+            var disciplinaAtual = document.getElementById("listaAprender").firstElementChild();
+            document.getElementById("listaAprendida").appendChild(disciplinaAtual);
+        }
+    </script>
 </head>
-<body bgcolor="#5f9ea0">
+<body bgcolor="#d2691e">
     <nav class="navbar navbar-default"/>
 
     <p class="navbar-text"><h1><center><font color="blue"><b>Lista Dinamica</b></font></center></h1></p>
@@ -36,11 +42,11 @@
     </center>
     <br><br>
     <section>
-        <div class="list-group">
+        <div class="list-group" id="listaAprender">
             <a href="#" class="list-group-item active">
                 Disciplinas a Aprender
             </a>
-            <a href="#" class="list-group-item">P1/LP1</a>
+            <a href="#" class="list-group-item" id="P1/LP1">P1/LP1</a>
             <a href="#" class="list-group-item">P2/LP2</a>
             <a href="#" class="list-group-item">EDA/LEDA</a>
             <a href="#" class="list-group-item">OAC/LOAC</a>
@@ -49,13 +55,13 @@
 
     <nav>
         <ul class="pager">
-            <li><a>Aprendida</a></li>
-            <li><a>Excluir</a></li>
+            <li><a href="#" onclick="aprendida()">Aprendida</a></li>
+            <li><a href="#">Excluir</a></li>
         </ul>
     </nav>
 
     <article>
-        <div class="list-group">
+        <div class="list-group" id="listaAprendida">
             <a href="#" class="list-group-item active">
                 Disciplinas Aprendidas
             </a>
