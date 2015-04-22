@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b612c0-843c-4ce6-b740-fa5a41406f55" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dinamica/Lista dinamica.html" afterPath="$PROJECT_DIR$/dinamica/Lista dinamica.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dinamica/cadastro.html" afterPath="$PROJECT_DIR$/dinamica/cadastro.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dinamica/index.html" afterPath="$PROJECT_DIR$/dinamica/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dinamica/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="40" />
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -38,8 +39,8 @@
       <file leaf-file-name="cadastro.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dinamica/cadastro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.307692">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state vertical-scroll-proportion="-7.9615383">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -48,8 +49,8 @@
       <file leaf-file-name="Lista dinamica.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dinamica/Lista dinamica.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5834768">
-              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.40963855">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -81,9 +82,9 @@
         <option value="$PROJECT_DIR$/estatica-boostrap/cadastro.html" />
         <option value="$PROJECT_DIR$/estatica-boostrap/obrigado.html" />
         <option value="$PROJECT_DIR$/estatica-boostrap/index.html" />
-        <option value="$PROJECT_DIR$/dinamica/Lista dinamica.html" />
         <option value="$PROJECT_DIR$/dinamica/index.html" />
         <option value="$PROJECT_DIR$/dinamica/cadastro.html" />
+        <option value="$PROJECT_DIR$/dinamica/Lista dinamica.html" />
       </list>
     </option>
   </component>
@@ -329,7 +330,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429649152420</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Define onde haverá javascript.">
+      <created>1429649481517</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1429649481517</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,7 +384,8 @@
     <MESSAGE value="Redefine parágrafo de index (melhor design)." />
     <MESSAGE value="Começada a parte 3. Falta adicionar as funcoes do javascript." />
     <MESSAGE value="Apronta botoes novos para receber as funções." />
-    <option name="LAST_COMMIT_MESSAGE" value="Apronta botoes novos para receber as funções." />
+    <MESSAGE value="Define onde haverá javascript." />
+    <option name="LAST_COMMIT_MESSAGE" value="Define onde haverá javascript." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -493,24 +501,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dinamica/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="40" />
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dinamica/cadastro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state vertical-scroll-proportion="-7.9615383">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dinamica/Lista dinamica.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5834768">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.40963855">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding />
         </state>
       </provider>
