@@ -13,11 +13,17 @@
                 $("#adicionar").click(function() {
                     console.log( "string");
                     var texto = $("#texto").val();
-                    $("#listaAAprender").append("<a href='#' class='assunto list-group-item'>" + texto + "</a>");
+                    $("#listaAAprender").append("<a href='#' class='assunto list-group-item' onclick='this.remove()'>" + texto + "</a>");
                 });
 
                 <!-- $(".list-group-item").on("click", function(){this.remove()})-->
                 $(".assunto").on("click", function(){this.remove()})
+
+                $("#adicionar2").click(function() {
+                    console.log( "string");
+                    var texto = $("#texto2").val();
+                    $("#listaAprendidas").append("<a href='#' class='assunto list-group-item' onclick='this.remove()'>" + texto + "</a>");
+                });
 
             });
         </script>
@@ -29,43 +35,38 @@
     <br><br>
     <center>
         <span><b>Novo Assunto A Aprender:</b></span> <input id="texto" type="text" name="Nome">
-        <button id="adicionar" >Adicionar</button></button>
+        <button id="adicionar" >Adicionar</button>
     </center>
     <br><br>
+    <p>Clique na linha do assunto para excluí-lo da lista.</p>
     <section>
         <div id="listaAAprender" class="list-group">
             <a href="#" class="list-group-item active">
                 Assuntos A Aprender
             </a>
-            <a href="#" class="assunto list-group-item">Git</a>
             <a href="#" class="assunto list-group-item">HTML</a>
+            <a href="#" class="assunto list-group-item">CSS</a>
             <a href="#" class="assunto list-group-item">Bootstraps</a>
             <a href="#" class="assunto list-group-item">JavaScript</a>
         </div>
     </section>
 
-    <nav>
-        <ul class="pager">
-            <li><a>Aprendida</a></li>
-            <li><a>Excluir</a></li>
-        </ul>
-    </nav>
+    <br><br>
+    <center>
+        <span><b>Novo Assunto Aprendido:</b></span> <input id="texto2" type="text" name="Nome">
+        <button id="adicionar2" >Adicionar</button>
+    </center>
 
+    <p>Clique na linha do assunto para excluí-lo da lista.</p>
     <article>
         <div class="list-group">
-            <a href="#" class="list-group-item active">
+            <a id="listaAprendidas" href="#" class="list-group-item active">
                 Assuntos Aprendidos
             </a>
 
         </div>
     </article>
 
-    <nav>
-        <ul class="pager">
-            <li><a >Revisar</a></li>
-            <li><a >Excluir</a></li>
-        </ul>
-    </nav>
 
     <nav>
         <ul class="pager">
